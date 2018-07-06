@@ -8,7 +8,7 @@ database = mongoClient['flask']
 
 
 @app.route("/")
-def nain():
+def main():
     return {
         "firstName": "Rodrigo",
         "lastName": "Oler",
